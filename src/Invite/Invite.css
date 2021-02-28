@@ -1,0 +1,28 @@
+.msg {
+    height: 40vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+}
+.msg-1 {
+    height: 40vh;
+    background-color: antiquewhite;
+    background-image: url('../utils/images/hands.jpg');
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+}
+.img {
+    width: 20%;
+    border-radius: 50%;
+}
+.txt {
+    font-style: italic;
+   
+}
+.div-section{
+    width : 30%;
+}
