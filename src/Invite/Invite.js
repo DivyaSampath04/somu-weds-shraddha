@@ -1,7 +1,6 @@
 import React from 'react';
 import * as c from '../utils/config';
 import './Invite.css';
-import ring from '../utils/images/ring.jpg';
 import temple from '../utils/images/temple.jpg';
 import beach from '../utils/images/beach.jpg'
 
