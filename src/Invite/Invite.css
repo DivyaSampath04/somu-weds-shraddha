@@ -14,6 +14,7 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: wrap;
+    background-size: cover;
 }
 .img {
     width: 20%;
