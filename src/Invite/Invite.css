@@ -1,29 +1,71 @@
-.msg {
-    height: 40vh;
-    background-color: antiquewhite;
+.msg-2 {
+    height: 50vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-flow: wrap;
+    background-image: linear-gradient(to right, #f18f15cf,white);
+}
+.msg-3 {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: wrap;
+    background-image: linear-gradient(to right, white,#1438e659);
 }
 .msg-1 {
-    height: 40vh;
+    height: 45vh;
     background-color: antiquewhite;
-    background-image: url('../utils/images/hands.jpg');
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: wrap;
+    background-image: url('../utils/images/hands4a.jpg');
+    
     background-size: cover;
 }
 .img {
-    width: 20%;
-    border-radius: 50%;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 37%);
 }
 .txt {
     font-style: italic;
-   
+    color: floralwhite;
+    font-size: 1.5em;
+   font-weight: 400;
 }
 .div-section{
-    width : 30%;
+    width : 50%;
+}
+.div-section1{
+    width : 50%;
+    text-align: left;
+}
+.div-section2{
+    width : 50%;
+    text-align: right;
+}
+.title{
+    color: floralwhite;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 400;
+}
+@media only screen and (max-width: 740px){
+    .msg-1 {
+        background-image: url('../utils/images/hands5a.jpg');
+    }
+    .img {
+        width: 40%;
+    }
+    .txt {
+        font-size: 1em;
+    }
+    .msg-2{
+        height: 40vh;
+    }
+    .msg-3 {
+        height: 40vh;
+    }
+    .title{
+        font-size: 1.1em;
+    }
 }
