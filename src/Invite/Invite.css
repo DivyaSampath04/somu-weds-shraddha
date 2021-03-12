@@ -4,7 +4,7 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: wrap;
-    background-image: linear-gradient(to right, #f18f15cf,white);
+    background-image:linear-gradient(to right, #043952eb,#033a615e);
 }
 .msg-3 {
     height: 50vh;
@@ -12,13 +12,13 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: wrap;
-    background-image: linear-gradient(to right, white,#1438e659);
+    background-image: linear-gradient(to right,#81b8de5e, #005077e6)
 }
 .msg-1 {
     height: 45vh;
     background-color: antiquewhite;
-    background-image: url('../utils/images/hands4a.jpg');
-    
+    background-image: url('../utils/images/hands_2.jpg');
+    padding: 14% 10%;
     background-size: cover;
 }
 .img {
@@ -51,7 +51,7 @@
 }
 @media only screen and (max-width: 740px){
     .msg-1 {
-        background-image: url('../utils/images/hands5a.jpg');
+        background-image: url('../utils/images/heart.jpg');
     }
     .img {
         width: 40%;
