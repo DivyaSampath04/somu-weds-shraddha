@@ -9,11 +9,11 @@ class Invite extends React.Component {
     return (
       <>
         <div className="msg-1">
-        <div className = 'title' style = {{color : '#ffb020',padding : '15px',fontWeight : 'bold'}}>{c.msg.title}</div>
+        <div className = 'title' style = {{color : '#031452d9',padding : '15px',fontWeight : 'bold'}}>{c.msg.title}</div>
             <div className="inner-div">
-          <p  className="txt">{c.msg.msg}</p>
-          <p  className="txt">{c.msg.msg1}</p>
-          <p className="txt">{c.msg.msg2}</p>
+          <p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg}</p>
+          <p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg1}</p>
+          <p className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg2}</p>
           </div>
           
         </div>
@@ -24,8 +24,8 @@ class Invite extends React.Component {
               <div className = 'line'></div>
             <p className="txt">{c.wedding.msg}</p>
             <p className="txt">{c.wedding.venue}</p>
-            <p className="txt">{c.wedding.time}</p>
-            <a href="http://maps.google.com/?q=1200 Sri Vanamamalai Mutt, Tirupati">
+            <p className="txt-small">{c.wedding.time}</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Sri Vanamamalai Mutt, Tirupati">
             <span className = 'link'>view in maps</span>
             </a>
           </div>
@@ -38,8 +38,8 @@ class Invite extends React.Component {
           <div className = 'line'></div>
             <p className="txt">{c.recep.msg}</p>
             <p className="txt">{c.recep.venue}</p>
-            <p className="txt">{c.recep.time}</p>
-            <a href="http://maps.google.com/?q=1200 Tamilnadu Tourism Beach Resort, Mahabalipuram">
+            <p className="txt-small">{c.recep.time}</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Tamilnadu Tourism Beach Resort, Private Beach">
               <span className = 'link'>view in maps</span>
             </a>
           </div>
