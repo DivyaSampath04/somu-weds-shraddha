@@ -3,6 +3,9 @@ import * as c from "../utils/config";
 import "./Invite.css";
 import temple from "../utils/images/wed2.jpg";
 import beach2 from "../utils/images/beach4.jpg";
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import CopyrightIcon from '@material-ui/icons/Copyright';
+import FavoriteIcon from '@material-ui/icons/Favorite';
 
 class Invite extends React.Component {
   render() {
@@ -26,6 +29,7 @@ class Invite extends React.Component {
             <p className="txt">{c.wedding.venue}</p>
             <p className="txt-small">{c.wedding.time}</p>
             <a href="https://www.google.com/maps/search/?api=1&query=Sri Vanamamalai Mutt, Tirupati">
+            <LocationOnIcon className = 'loc-icon'/>
             <span className = 'link'>view in maps</span>
             </a>
           </div>
@@ -40,12 +44,16 @@ class Invite extends React.Component {
             <p className="txt">{c.recep.venue}</p>
             <p className="txt-small">{c.recep.time}</p>
             <a href="https://www.google.com/maps/search/?api=1&query=Tamilnadu Tourism Beach Resort, Private Beach">
+            <LocationOnIcon className = 'loc-icon'/>
               <span className = 'link'>view in maps</span>
             </a>
           </div>
          
         </div>
+       
+       
         <p className = 'credit'>Made by Divya.</p>
+     
       </>
     );
   }

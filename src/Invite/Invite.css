@@ -48,11 +48,11 @@
     width : 50%;
 }
 .div-section1{
-    width : 50%;
+    width : 51%;
     text-align: left;
 }
 .div-section2{
-    width : 50%;
+    width : 51%;
     text-align: right;
 }
 .title{
@@ -67,13 +67,26 @@
     margin: 3% 0px;
 }
 .credit {
-    background-color: #6f6d6d;
-    color: burlywood;
+   
+    color: #ffb020;
     font-size: 0.8em;
+    align-items: center;
+    background-color: #6f6d6d;
 }
 .link {
     color: #ffb020;
     text-decoration: underline;
+    font-style: italic;
+    font-size: 1.3em;
+}
+.loc-icon {
+    color: #ffb020 !important;
+    font-size: 1.3em !important; 
+}
+.flex-style {
+    display: flex;
+    align-items: center;
+    background-color: #6f6d6d;
 }
 @media only screen and (max-width: 740px){
     .msg-1 {
@@ -87,7 +100,13 @@
         font-size: 1em;
     }
     .txt-small{
-        font-size: 0.7em;
+        font-size: 0.8em;
+    }
+    .link {
+        font-size: 0.8em;
+    }
+    .loc-icon {
+        font-size: 0.8em !important;
     }
     .msg-2{
         height: 40vh;
