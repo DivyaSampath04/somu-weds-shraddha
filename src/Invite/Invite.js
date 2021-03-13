@@ -4,8 +4,6 @@ import "./Invite.css";
 import temple from "../utils/images/wed2.jpg";
 import beach2 from "../utils/images/beach4.jpg";
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import CopyrightIcon from '@material-ui/icons/Copyright';
-import FavoriteIcon from '@material-ui/icons/Favorite';
 
 class Invite extends React.Component {
   render() {
