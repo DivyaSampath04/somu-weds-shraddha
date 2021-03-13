@@ -12,14 +12,20 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: wrap;
-    background-image: linear-gradient(to right,#81b8de5e, #005077e6)
+    background-image: linear-gradient(to right,#033a615e, #043952eb);
 }
 .msg-1 {
-    height: 45vh;
+    height: 50vh;
     background-color: antiquewhite;
-    background-image: url('../utils/images/hands_2.jpg');
-    padding: 14% 10%;
+    background-image: url('../utils/images/hands.jpg');
+    
     background-size: cover;
+    
+}
+.inner-div{
+    padding: 5% 5%;
+    text-align: center;
+    line-height: 2em;
 }
 .img {
     width: 30%;
@@ -29,7 +35,7 @@
 .txt {
     font-style: italic;
     color: floralwhite;
-    font-size: 1.5em;
+    font-size: 2em;
    font-weight: 400;
 }
 .div-section{
@@ -46,12 +52,26 @@
 .title{
     color: floralwhite;
     font-size: 2em;
-    font-style: italic;
+    letter-spacing: 0.3em;
     font-weight: 400;
+}
+.line {
+    border: 1px solid #ffb020;
+    width: 100%;
+    margin: 3% 0px;
+}
+.credit {
+    background-color: #6f6d6d;
+    color: burlywood;
+}
+.link {
+    color: #ffb020;
+    text-decoration: underline;
 }
 @media only screen and (max-width: 740px){
     .msg-1 {
-        background-image: url('../utils/images/heart.jpg');
+        background-image: url('../utils/images/heart1.jpg');
+        height: 40vh;
     }
     .img {
         width: 40%;

@@ -1,18 +1,24 @@
 export const msg = {
-  title : "SOMU WEDS SHRADDHA !!",
-  msg: "What's meant to be,will find its way eventually. And YES, we found each other. We are getting married soon !! ",
+  title : "SOMU WEDS SHRADDHA",
+  msg: '"We are destined for each other"',
+  msg1 : "Love, Laughter and happily ever after...",
+  msg2 : "And YES, the wait is worth it, we are getting married.",
   img: "",
 };
 
 export const wedding = {
-  title : "Wedding",
-  msg: "Join us and shower your blessings",
-  venue : 'At Sri Swamy Venktaeshwara temple, Tirumala Tirupati. Between ',
-  img: "",
+  title : "WEDDING",
+  msg: "We solicit your presence and blessings",
+  venue : '@ "Sri Vanamamalai Mutt", Tirupati.',
+  time : 'Between 5 AM and 6:30 AM',
+
 };
 
 export const recep = {
-  title : "Reception",
-  msg: "",
-  img: "",
+  title : "RECEPTION",
+  msg: "Embrace the reception eve",
+  venue : '@ "Tamilnadu Tourism Beach Resort", Mahabalipuram',
+  time : 'From 5:30 PM onwards.'
+
+  
 };
