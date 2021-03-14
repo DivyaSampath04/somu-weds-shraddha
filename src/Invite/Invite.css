@@ -4,7 +4,7 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: wrap;
-    background-image:linear-gradient(to right, #043952eb,#033a618a);
+    background-image:linear-gradient(to right, #043952eb,#026fbd8c);
 }
 .msg-3 {
     height: 50vh;
@@ -12,7 +12,7 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: wrap;
-    background-image: linear-gradient(to right,#033a618a, #043952eb);
+    background-image: linear-gradient(to right,#026fbd8c, #043952eb);
 }
 .msg-1 {
     height: 50vh;
@@ -35,7 +35,7 @@
 .txt {
     font-style: italic;
     color: floralwhite;
-    font-size: 1.8em;
+    font-size: 1.6em;
    font-weight: 400;
 }
 .txt-small{
@@ -57,7 +57,7 @@
 }
 .title{
     color: floralwhite;
-    font-size: 2em;
+    font-size: 1.8em;
     letter-spacing: 0.3em;
     font-weight: 400;
     
@@ -65,7 +65,7 @@
 .title-main{
     
     letter-spacing: 0.3em;
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: bold;
     padding: 15px;
     background: linear-gradient(to right, #f9cc29 0%, #c30404d9 100%);
@@ -100,7 +100,8 @@
     align-items: center;
     background-color: #6f6d6d;
 }
-@media only screen and (max-width: 740px){
+
+@media only screen and (max-width: 640px){
     .msg-1 {
         background-image: url('../utils/images/heart1.jpg');
         height: 40vh;
@@ -135,9 +136,12 @@
     .credit {
         font-size: 0.7em;
     }
-    .inner-div {
-        padding:20% 5%;
-        line-height: 2em;
+    
+}
+@media only screen and (max-width: 500px){
+.inner-div {
+    padding: 30% 5%;
+    line-height: 2em;
 
-    }
+}
 }
