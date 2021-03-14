@@ -15,9 +15,9 @@ class Invite extends React.Component {
         <div className="msg-1">
         <Zoom><div className = 'title-main' id = 'title'>{c.msg.title}</div></Zoom>
             <div className="inner-div">
-            <Fade left><p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg}</p></Fade>
-          <Fade right><p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg1}</p></Fade>
-          <Fade left><p className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg2}</p></Fade>
+        <Zoom ><p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg}</p></Zoom>
+        <Zoom ><p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg1}</p></Zoom>
+        <Zoom ><p className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg2}</p></Zoom>
           </div>
           
         </div>
@@ -34,11 +34,11 @@ class Invite extends React.Component {
             <span className = 'link'>view in maps</span>
             </a>
           </div>
-          <Zoom><img src={temple} alt="temple" className="img" /></Zoom>
+       <Zoom><img src={temple} alt="temple" className="img" /></Zoom>
         </div>
  
         <div className="msg-3">
-          <Zoom><img src={beach2} alt="beach" className="img" /></Zoom>
+         <Zoom><img src={beach2} alt="beach" className="img" /></Zoom>
           <div className="div-section2">
           <p className = "title">{c.recep.title}</p>
           <div className = 'line'></div>
