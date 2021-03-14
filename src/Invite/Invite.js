@@ -10,7 +10,7 @@ class Invite extends React.Component {
     return (
       <>
         <div className="msg-1">
-        <div className = 'title' style = {{color : '#031452d9',padding : '15px',fontWeight : 'bold'}}>{c.msg.title}</div>
+        <div className = 'title-main'>{c.msg.title}</div>
             <div className="inner-div">
           <p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg}</p>
           <p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg1}</p>
@@ -25,7 +25,7 @@ class Invite extends React.Component {
               <div className = 'line'></div>
             <p className="txt">{c.wedding.msg}</p>
             <p className="txt">{c.wedding.venue}</p>
-            <p className="txt-small">{c.wedding.time}</p>
+            <p className="txt">{c.wedding.time}</p>
             <a href="https://www.google.com/maps/search/?api=1&query=Sri Vanamamalai Mutt, Tirupati">
             <LocationOnIcon className = 'loc-icon'/>
             <span className = 'link'>view in maps</span>
@@ -40,7 +40,7 @@ class Invite extends React.Component {
           <div className = 'line'></div>
             <p className="txt">{c.recep.msg}</p>
             <p className="txt">{c.recep.venue}</p>
-            <p className="txt-small">{c.recep.time}</p>
+            <p className="txt">{c.recep.time}</p>
             <a href="https://www.google.com/maps/search/?api=1&query=Tamilnadu Tourism Beach Resort, Private Beach">
             <LocationOnIcon className = 'loc-icon'/>
               <span className = 'link'>view in maps</span>

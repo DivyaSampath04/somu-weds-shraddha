@@ -17,7 +17,7 @@ export const wedding = {
 export const recep = {
   title : "RECEPTION",
   msg: "Embrace the reception eve",
-  venue : '@ "Tamilnadu Tourism Beach Resort", Mahabalipuram',
+  venue : '@ "Tamilnadu Tourism Beach Resort", Mahabalipuram.',
   time : 'on 24/04/2021(Saturday), from 5:30 p.m onwards.'
 
   
