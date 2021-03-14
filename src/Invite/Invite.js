@@ -4,21 +4,24 @@ import "./Invite.css";
 import temple from "../utils/images/wed2.jpg";
 import beach2 from "../utils/images/beach4.jpg";
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 class Invite extends React.Component {
+
   render() {
     return (
       <>
         <div className="msg-1">
-        <div className = 'title-main'>{c.msg.title}</div>
+        <Zoom><div className = 'title-main' id = 'title'>{c.msg.title}</div></Zoom>
             <div className="inner-div">
-          <p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg}</p>
-          <p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg1}</p>
-          <p className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg2}</p>
+            <Fade left><p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg}</p></Fade>
+          <Fade right><p  className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg1}</p></Fade>
+          <Fade left><p className="txt" style = {{fontWeight : 'bold'}}>{c.msg.msg2}</p></Fade>
           </div>
           
         </div>
-      
+     
         <div className="msg-2">
           <div className="div-section1">
               <p className = "title">{c.wedding.title}</p>
@@ -31,10 +34,11 @@ class Invite extends React.Component {
             <span className = 'link'>view in maps</span>
             </a>
           </div>
-          <img src={temple} alt="temple" className="img" />
+          <Zoom><img src={temple} alt="temple" className="img" /></Zoom>
         </div>
+ 
         <div className="msg-3">
-          <img src={beach2} alt="beach" className="img" />
+          <Zoom><img src={beach2} alt="beach" className="img" /></Zoom>
           <div className="div-section2">
           <p className = "title">{c.recep.title}</p>
           <div className = 'line'></div>
