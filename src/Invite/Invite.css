@@ -56,10 +56,11 @@
     text-align: right;
 }
 .title{
-    color: floralwhite;
+    
     font-size: 1.8em;
     letter-spacing: 0.3em;
     font-weight: 400;
+    animation: change 2s step-end infinite;
     
 }
 .title-main{
@@ -67,17 +68,18 @@
     font-size: 1.8em;
     font-weight: bold;
     padding: 15px;
-    color:#313131;
+    
    /* background: linear-gradient(to right, #f9cc29 0%, #c30404d9 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;*/
-   -webkit-animation: colorchange 10s infinite alternate;;
+    animation: change 2s step-end infinite;
     
 }
 .line {
     border: 1px solid #ffb020;
     width: 100%;
     margin: 3% 0px;
+    
 }
 .credit {
    
@@ -90,7 +92,7 @@
     color: #ffb020;
     text-decoration: underline;
     font-style: italic;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 .loc-icon {
     color: #ffb020 !important;
@@ -102,22 +104,21 @@
     background-color: #6f6d6d;
 }
 
-@-webkit-keyframes colorchange {
+
+  @keyframes change {
     0% {
-      
-      color: blue;
+      color: #f9cc29
     }
-    
-    10% {
-      
-      color: #8e44ad;
+    25% {
+      color: rgb(214, 140, 3)
     }
-    
-    20% {
-      
-      color: #1abc9c;
+    50% {
+      color: #090353d9
     }
-}
+    75% {
+      color: rgb(155, 15, 5)
+    }
+  }
 @media only screen and (max-width: 640px){
     .msg-1 {
         background-image: url('../utils/images/heart1.jpg');
@@ -133,7 +134,7 @@
         font-size: 0.8em;
     }
     .link {
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .loc-icon {
         font-size: 0.8em !important;
