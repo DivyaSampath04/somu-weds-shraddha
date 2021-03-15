@@ -40,12 +40,12 @@ class Invite extends React.Component {
               <span className="link">open in maps</span>
             </a>
           </div>
-          <img src={temple} alt="temple" className="img" />
+          <Zoom><img src={temple} alt="temple" className="img" /></Zoom>
         </div>
         </Zoom>
         <Zoom>
         <div className="msg-3">
-          <img src={beach2} alt="beach" className="img" />
+          <Zoom><img src={beach2} alt="beach" className="img" /></Zoom>
           <div className="div-section2">
             <p className="title">{c.recep.title}</p>
             <div className="line"></div>
