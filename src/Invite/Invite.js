@@ -4,13 +4,14 @@ import "./Invite.css";
 import temple from "../utils/images/wed2.jpg";
 import beach2 from "../utils/images/beach4.jpg";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
-//import Zoom from 'react-reveal/Zoom';
+import Zoom from 'react-reveal/Zoom';
 //import Fade from 'react-reveal/Fade';
 
 class Invite extends React.Component {
   render() {
     return (
       <>
+      <Zoom>
         <div className="msg-1">
           <div className="title-main">{c.msg.title}</div>
           <div className="inner-div">
@@ -25,7 +26,8 @@ class Invite extends React.Component {
             </p>
           </div>
         </div>
-
+        </Zoom>
+        <Zoom>
         <div className="msg-2">
           <div className="div-section1">
             <p className="title">{c.wedding.title}</p>
@@ -40,7 +42,8 @@ class Invite extends React.Component {
           </div>
           <img src={temple} alt="temple" className="img" />
         </div>
-
+        </Zoom>
+        <Zoom>
         <div className="msg-3">
           <img src={beach2} alt="beach" className="img" />
           <div className="div-section2">
@@ -55,7 +58,7 @@ class Invite extends React.Component {
             </a>
           </div>
         </div>
-
+        </Zoom>
         <p className="credit">Made by Divya.</p>
       </>
     );
