@@ -93,6 +93,8 @@
     text-decoration: underline;
     font-style: italic;
     font-size: 1.5em;
+    animation : change-font 2s infinite;
+    
 }
 .loc-icon {
     color: #ffb020 !important;
@@ -103,20 +105,22 @@
     align-items: center;
     background-color: #6f6d6d;
 }
-
+@keyframes change-font {
+    0% {font-weight: 500;}
+    100% {font-weight: 300;}
+  }
 
   @keyframes change {
     0% {
       color: #f9cc29
     }
     25% {
-      color: rgb(214, 140, 3)
-    }
-    50% {
-      color: #090353d9
+      color: #ffb020
+    }50% {
+      color: #04066dd9
     }
     75% {
-      color: rgb(155, 15, 5)
+      color: floralwhite
     }
   }
 @media only screen and (max-width: 640px){
@@ -137,7 +141,7 @@
         font-size: 1em;
     }
     .loc-icon {
-        font-size: 0.8em !important;
+        font-size: 1em !important;
     }
     .msg-2{
         height: 40vh;

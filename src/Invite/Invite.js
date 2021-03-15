@@ -35,7 +35,7 @@ class Invite extends React.Component {
             <p className="txt">{c.wedding.time}</p>
             <a href="https://www.google.com/maps/search/?api=1&query=Sri Vanamamalai Mutt, Tirupati">
               <LocationOnIcon className="loc-icon" />
-              <span className="link">view in maps</span>
+              <span className="link">open in maps</span>
             </a>
           </div>
           <img src={temple} alt="temple" className="img" />
@@ -51,7 +51,7 @@ class Invite extends React.Component {
             <p className="txt">{c.recep.time}</p>
             <a href="https://www.google.com/maps/search/?api=1&query=Tamilnadu Tourism Beach Resort, Private Beach">
               <LocationOnIcon className="loc-icon" />
-              <span className="link">view in maps</span>
+              <span className="link">open in maps</span>
             </a>
           </div>
         </div>
